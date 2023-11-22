@@ -14,8 +14,9 @@ export const App = () => {
     //   }}
     
     <>
-
-        <Statistics/>
+      <Profile />
+      <Statistics />
+      
       </>
     // </div>
   );

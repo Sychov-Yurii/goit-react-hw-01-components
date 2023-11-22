@@ -1,6 +1,6 @@
 import data from '../data/data.json'
 
-const Statistics = () => {
+export const Statistics = () => {
     return data.map((el) => (
 
         <section class="statistics" key={el.id}>

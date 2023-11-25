@@ -1,19 +1,21 @@
-import data from '../data/data.json'
 
-export const Statistics = () => {
-    return data.map((el) => (
 
-        <section class="statistics" key={el.id}>
+export const Statistics = ({ data }) => {
+    console.log(data);
+    return (
+
+        <section class="statistics" >
             <h2 class="title">Upload stats</h2>
 
             <ul class="stat-list">
-                <li class="item">
-                    <span class="label">{el.label}</span>
-                    <span class="percentage">{el.percentage}</span>
-                </li>
+                {data.map((el) => (
+                    <li class="item" key={el.id}>
+                        <span class="label">{el.label}</span>
+                        <span class="percentage">{el.percentage}</span>
+                    </li>))}
             </ul>
         </section>
-    ))
+    )
 }
 
 export default Statistics

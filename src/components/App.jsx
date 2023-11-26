@@ -1,22 +1,20 @@
-import Profile from "./Profile";
-import Statistics from "./Statistics";
-import user from '../data/user.json'; 
-import data from '../data/data.json'
-
+import Profile from './Profile';
+import Statistics from './Statistics';
+import user from '../data/user.json';
+import data from '../data/data.json';
 
 export const App = () => {
   return (
-    //     <div
-    //   style={{
-    //     height: '100vh',
-    //     display: 'flex',
-    //     justifyContent: 'center',
-    //     alignItems: 'center',
-    //     fontSize: 40,
-    //     color: '#010101'
-    //   }}
-    // >
-     <div>
+    <div
+      style={{
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 40,
+        color: '#010101',
+      }}
+    >
       <Profile
         username={user.username}
         tag={user.tag}
@@ -24,12 +22,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics
-        data={data}
-        
-      />
-
-      </div>
-
+      <Statistics data={data} />
+    </div>
   );
 };

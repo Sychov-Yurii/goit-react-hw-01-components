@@ -1,5 +1,4 @@
 export const Statistics = ({ data }) => {
-  console.log(data);
   return (
     <section class="statistics">
       <h2 class="title">Upload stats</h2>

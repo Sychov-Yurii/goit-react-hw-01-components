@@ -11,7 +11,27 @@
 }
 
 .transaction_history {
-    border-collapse: collapse;
+    /* border-collapse: collapse;
     text-align: center;
+    width: 350px; */
+}
+
+.table {
     width: 350px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-transform: capitalize;
+    color: rgb(76 72 97);
+}
+tr:hover {
+    background-color: #8cd4f599;
+}
+th {
+    background-color: #03a9f499;
 }

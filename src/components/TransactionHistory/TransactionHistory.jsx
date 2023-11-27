@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const TransactionHistory = ({ items }) => {
   return (
-    <section className={css.section}>
+    <section className="section">
       <table className={css.transaction_history}>
         <thead>
           <tr>

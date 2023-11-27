@@ -1,21 +1,3 @@
-.section {
-    align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: 15px auto 0;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    width: 400px;
-}
-
-.transaction_history {
-    /* border-collapse: collapse;
-    text-align: center;
-    width: 350px; */
-}
-
 .table {
     width: 350px;
     text-align: center;

@@ -5,7 +5,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
 
   return (
-    <div className={css.profile}>
+    <div className="section">
       <div className={css.description}>
         <img src={avatar} alt="User avatars" className={css.avatar} />
         <h2 className="name">{username}</h2>
